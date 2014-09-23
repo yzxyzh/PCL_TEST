@@ -1,29 +1,0 @@
-TALL_BUILD
-v6
-r1
-cCheck dependencies
-cPhaseScriptExecution CMake\ Rules /Users/yanzixu/Desktop/PCL_TEST/BUILD/PCL_TEST.build/Debug/ALL_BUILD.build/Script-E8327C9C93B742188F09D427.sh
-
-N/Users/yanzixu/Desktop/PCL_TEST/BUILD/PCL_TEST.build/Debug/ALL_BUILD.build/Script-E8327C9C93B742188F09D427.sh
-c00000000542123D200000000000000A4
-t1411458002
-s164
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies292243525bd1b941^0b4443525bd1b941^---0#1#1#--18"Check dependencies36"C2DDDA22-7E94-4B0A-B1CB-9C572C78547A-
-
-CPhaseScriptExecution CMake\ Rules /Users/yanzixu/Desktop/PCL_TEST/BUILD/PCL_TEST.build/Debug/ALL_BUILD.build/Script-E8327C9C93B742188F09D427.sh
-s433150802.263342
-e433150802.278718
-r1
-xPhaseScriptExecution
-xCMake Rules
-x/Users/yanzixu/Desktop/PCL_TEST/BUILD/PCL_TEST.build/Debug/ALL_BUILD.build/Script-E8327C9C93B742188F09D427.sh
-oecho ""
-o
-oecho Build\ all\ projects
-oBuild all projects
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'111"PhaseScriptExecution CMake\ Rules BUILD/PCL_TEST.build/Debug/ALL_BUILD.build/Script-E8327C9C93B742188F09D427.shf69943525bd1b941^3e5b47525bd1b941^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-433150802#0#8#-0#-----2@26"echo Build\ all\ projects-433150802#9#26#-0#-----2@19"Build all projects-433150802#35#19#-0#-----0#0#1#--276"PhaseScriptExecution CMake\ Rules BUILD/PCL_TEST.build/Debug/ALL_BUILD.build/Script-E8327C9C93B742188F09D427.sh    cd /Users/yanzixu/Desktop/PCL_TEST    /bin/sh -c /Users/yanzixu/Desktop/PCL_TEST/BUILD/PCL_TEST.build/Debug/ALL_BUILD.build/Script-E8327C9C93B742188F09D427.sh36"59347303-D36F-418B-82DA-06E517A7AAAD-
-bB23E7277-E983-46F2-AE8B-7CEB32809893
-
