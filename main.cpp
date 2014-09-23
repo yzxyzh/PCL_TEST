@@ -8,8 +8,11 @@
 #include <pcl/visualization/pcl_visualizer.h>
 
 #include <pcl/common/pca.h>
+#include <vtkSmartPointer.h>
+#include <vtkDataArray.h>
 
-
+#include "UserColor.h"
+#include <time.h>
 // This function displays the help
 void
 showHelp(char * program_name)
@@ -18,6 +21,37 @@ showHelp(char * program_name)
     std::cout << "Usage: " << program_name << " cloud_filename.[pcd|ply]" << std::endl;
     std::cout << "-h:  Show this help." << std::endl;
 }
+
+void IsInEllipse(const pcl::PointCloud<pcl::PointXYZ>& inPointCloud,
+                 const double a, const double b, const double c,
+                 const Eigen::Matrix3f& coorT,
+                 const Eigen::Vector3f& translate,
+                 vector<bool>& outResult)
+{
+    int cloudSize=inPointCloud.size();
+    outResult.resize(cloudSize, true);
+
+    //要建立椭球判断矩阵A
+    //椭球可以写成$xAx^t = 1$,若坐标变换后，假设坐标变换矩阵为$Q,Q^tQ=I$,那么
+    //椭球变为$xBx^t=1,B=QAQ^t$,若加上平移，椭球变为：
+    //$(x-v)B(x-v)^t = 1$，椭球内部就是$ (x-v)B(x-v)^t \leq 1$
+    Eigen::Matrix3f Gamma=Eigen::Matrix3f::Zero();
+    Gamma(0,0)=1.0/(a*a);
+    Gamma(1,1)=1.0/(b*b);
+    Gamma(2,2)=1.0/(c*c);
+
+    Eigen::Matrix3f A=coorT*Gamma*coorT.transpose();
+
+    for (int i=0; i<cloudSize; i++) {
+        
+        pcl::PointXYZ p=inPointCloud[i];
+        Eigen::Vector3f vec(p.x-translate[0],p.y-translate[1],p.z-translate[2]);
+        double val = (vec.transpose()*A*vec)(0,0);
+        if(val>1) outResult[i]=false;
+    }
+}
+
+
 /**
  *  绘制一个斜椭球
  *
@@ -76,7 +110,7 @@ void EclipseGenerator(double a, double b, double c, pcl::PointCloud<pcl::PointXY
 int
 main (int argc, char** argv)
 {
-    
+    srand(time(NULL));
     
     // Fetch point cloud filename in arguments | Works with PCD and PLY files
     std::vector<int> filenames;
@@ -84,7 +118,7 @@ main (int argc, char** argv)
     // Load file | Works with PCD and PLY files
     pcl::PointCloud<pcl::PointXYZ>::Ptr source_cloud (new pcl::PointCloud<pcl::PointXYZ> ());
     
-    if (pcl::io::loadPLYFile ("cow-2.ply", *source_cloud) < 0)  {
+    if (pcl::io::loadPLYFile ("manhead-2.ply", *source_cloud) < 0)  {
         return -1;
     }
     
@@ -130,8 +164,31 @@ main (int argc, char** argv)
     pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> source_cloud_color_handler (source_cloud, 255, 255, 255);
     
     pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> show_e_handler (showCloud, 255, 0, 0);
+    
+    user_color<pcl::PointXYZ> userColor(source_cloud);
+    int showSize=source_cloud->size();
+    vector<rgb_s> colors(showSize);
+    vector<bool> res;
+    IsInEllipse(*source_cloud, 1.0, 0.5, 0.5, e_vector, mean_3f, res);
+
+    for (int i=0; i<res.size(); i++) {
+        if(res[i])
+        {
+            colors[i].r=255;
+            colors[i].g=255;
+            colors[i].b=255;
+        }else{
+            colors[i].r=0;
+            colors[i].g=0;
+            colors[i].b=255;
+        }
+    }
+    
+    userColor.SetUserColorField(colors);
+
+
     // We add the point cloud to the viewer and pass the color handler
-    viewer.addPointCloud (source_cloud, source_cloud_color_handler, "original_cloud");
+    viewer.addPointCloud (source_cloud, userColor, "original_cloud");
     viewer.addPointCloud (showCloud, show_e_handler, "e_cloud");
     
     //viewer.addCoordinateSystem (1.0,0);
@@ -141,6 +198,11 @@ main (int argc, char** argv)
     viewer.addLine(origin, y, 0, 255 , 0, "line_y");
     viewer.addLine(origin, z, 0, 0 , 255, "line_z");
     //viewer.setPosition(800, 400); // Setting visualiser window position
+    
+    vtkSmartPointer<vtkDataArray> colorArray;
+    source_cloud_color_handler.getColor(colorArray);
+    
+    
     
     while (!viewer.wasStopped ()) { // Display the visualiser until 'q' key is pressed
         viewer.spinOnce ();

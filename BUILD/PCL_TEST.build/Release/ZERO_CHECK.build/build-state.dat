@@ -1,0 +1,29 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/yanzixu/Desktop/PCL_TEST/BUILD/PCL_TEST.build/Release/ZERO_CHECK.build/Script-B784C2E73CDB4FC1A179E029.sh
+
+N/Users/yanzixu/Desktop/PCL_TEST/BUILD/PCL_TEST.build/Release/ZERO_CHECK.build/Script-B784C2E73CDB4FC1A179E029.sh
+c0000000054212E5900000000000000A5
+t1411460697
+s165
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies72dcb9cb6cd1b941^6e4dbacb6cd1b941^---0#1#1#--18"Check dependencies36"94149B60-7D66-4A69-8336-CCAAA96C2C87-
+
+CPhaseScriptExecution CMake\ Rules /Users/yanzixu/Desktop/PCL_TEST/BUILD/PCL_TEST.build/Release/ZERO_CHECK.build/Script-B784C2E73CDB4FC1A179E029.sh
+s433155275.726549
+e433155275.802958
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/yanzixu/Desktop/PCL_TEST/BUILD/PCL_TEST.build/Release/ZERO_CHECK.build/Script-B784C2E73CDB4FC1A179E029.sh
+oecho ""
+o
+omake -f /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'114"PhaseScriptExecution CMake\ Rules BUILD/PCL_TEST.build/Release/ZERO_CHECK.build/Script-B784C2E73CDB4FC1A179E029.sh0f5fbacb6cd1b941^c58fcdcb6cd1b941^-177"echo ""make -f /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeScripts/ReRunCMake.makemake[1]: `/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-433155275#0#8#-0#-----2@75"make -f /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeScripts/ReRunCMake.make-433155275#9#75#-0#-----2@93"make[1]: `/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/cmake.check_cache' is up to date.-433155275#84#93#-0#-----0#0#1#--282"PhaseScriptExecution CMake\ Rules BUILD/PCL_TEST.build/Release/ZERO_CHECK.build/Script-B784C2E73CDB4FC1A179E029.sh    cd /Users/yanzixu/Desktop/PCL_TEST    /bin/sh -c /Users/yanzixu/Desktop/PCL_TEST/BUILD/PCL_TEST.build/Release/ZERO_CHECK.build/Script-B784C2E73CDB4FC1A179E029.sh36"0F3E20F7-AEDC-41A6-9BA9-0DD6848689CE-
+b04C5624C-D097-43E6-9DA5-4928F54E22FA
+

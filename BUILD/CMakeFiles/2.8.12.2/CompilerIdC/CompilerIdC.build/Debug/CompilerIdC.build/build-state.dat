@@ -1,0 +1,121 @@
+TCompilerIdC
+v6
+r1
+cCheck dependencies
+cCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC normal i386
+cPhaseScriptExecution Run\ Script /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005243E79F00000000000000AA
+t1380181919
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052784352000000000000044C
+t1383613266
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005278435200000000000001DB
+t1383613266
+s475
+
+N/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c
+c000000005421238E0000000000002E9F
+t1411457934
+s11935
+
+N/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC
+t2
+s0
+
+N/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+t1411457934
+s3428
+
+N/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+c000000005421238E0000000000000097
+t1411457934
+s151
+
+N/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+c000000005421238E000000000000002A
+t1411457934
+s42
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies946cc50e5bd1b941^d923cc0e5bd1b941^---0#1#1#--18"Check dependencies36"94B967B3-12F2-4B20-BA15-04DF4D2C9D58-
+
+CCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s433150734.799254
+e433150734.819233
+r1
+xCompileC
+x./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+x/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c168"CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler4bb0cc0e5bd1b941^e9b9d10e5bd1b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c0000000000000000^2457"CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC -MMD -MT dependencies -MF /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c -o /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o36"F2970465-6D62-43FA-83B9-8EFDD3A3275B-
+b6C818FFC-0B8D-4E73-B714-8CBB90B47375
+
+CLd /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC normal i386
+s433150734.819934
+e433150734.850541
+r1
+xLd
+x/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC
+xnormal
+xi386
+d/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+d/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.eprintf.a
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Link /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC28"Ld ./CompilerIdC normal i3866ff4d10e5bd1b941^d7bdd90e5bd1b941^---0#0#1#--991"Ld ./CompilerIdC normal i386    cd /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC -F/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC -filelist /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC_dependency_info.dat -o /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC36"D4C2076B-AE85-482A-AE2C-2D50B6FCE7EF-
+b6C818FFC-0B8D-4E73-B714-8CBB90B47375
+
+CPhaseScriptExecution Run\ Script /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+s433150734.851738
+e433150734.860276
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'111"PhaseScriptExecution Run\ Script ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh6747da0e5bd1b941^e63bdc0e5bd1b941^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-433150734#0#47#-0#-----0#0#1#--353"PhaseScriptExecution Run\ Script ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC    /bin/sh -c /Users/yanzixu/Desktop/PCL_TEST/BUILD/CMakeFiles/2.8.12.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"24B6A5B5-FD22-4BBF-A1E1-E575CE353384-
+b6C818FFC-0B8D-4E73-B714-8CBB90B47375
+
